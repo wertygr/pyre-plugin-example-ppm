@@ -1,0 +1,7 @@
+{
+    "name": "_ppm_",
+    "title": "PPM",
+    "description": "minimal package manager",
+    "tags": [],
+    "config": {"file": "ppm/__init__.py", "cache": true, "api": true}
+}

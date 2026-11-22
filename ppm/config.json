@@ -1,0 +1,8 @@
+{
+    "name": "_ppm_",
+    "config": {
+        "file": "ppm/__init__.py",
+        "cache": true,
+        "api": true
+    }
+}
