@@ -4,7 +4,7 @@ import shutil
 import urllib.request
 import zipfile
 
-from plugins.plugin_tools.plugin_types import CommandContext, PluginApi
+from plugins.plugin_tools.plugin_types import CommandContext, PluginApi, PluginData
 from plugins.plugin_tools.lib.base import base_destructor
 from rich import box
 from rich.table import Table
@@ -24,7 +24,6 @@ from .const import (
     ZIP_DIR,
     ZIP_FILE,
 )
-from ..plugin_tools import PluginData
 
 
 # ______________________________________________________________________________________
