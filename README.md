@@ -177,8 +177,7 @@ the developer plugin `_builder_`, which writes `config.json`
 (`__pycache__`, `*.pyc`, `.git`):
 
 ```pycon
-_sh_ cd <ppm_source_dir>
-builder plugin.json ppm -o ppm.zip
+build <path>/plugin.json <path>/ppm -o ppm.zip
 ```
 
 Keep the asset name `ppm.zip`: the
