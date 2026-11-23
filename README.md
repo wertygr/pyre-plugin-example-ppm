@@ -39,13 +39,13 @@ pip install rich requests
 3. reload settings:
 
    ```pycon
-   >>> _._ settings_reload
+   _._ settings_reload
    ```
 
 After that it can install other packages, and update itself, from a release:
 
 ```pycon
->>> _ppm_ install https://github.com/wertygr/pyre-plugin-example-ppm/releases/latest/download/ppm.zip
+_ppm_ install https://github.com/wertygr/pyre-plugin-example-ppm/releases/latest/download/ppm.zip
 ```
 
 The link always points at the latest release, so it never goes stale.
@@ -66,12 +66,12 @@ The link always points at the latest release, so it never goes stale.
 nothing: it is reserved.
 
 ```pycon
->>> _ppm_ install https://example.com/hello.zip
->>> _ppm_ ls
->>> _ppm_ update _hello_
->>> _ppm_ uninstall _hello_
->>> _ppm_ clean
->>> _ppm_ version
+_ppm_ install https://example.com/hello.zip
+_ppm_ ls
+_ppm_ update _hello_
+_ppm_ uninstall _hello_
+_ppm_ clean
+_ppm_ version
 ```
 
 ## Package format
@@ -177,7 +177,8 @@ the developer plugin `_builder_`, which writes `config.json`
 (`__pycache__`, `*.pyc`, `.git`):
 
 ```pycon
->>> builder plugins/ppm/plugin.json plugins/ppm -o ppm.zip
+_sh_ cd <ppm_source_dir>
+builder plugin.json ppm -o ppm.zip
 ```
 
 Keep the asset name `ppm.zip`: the
