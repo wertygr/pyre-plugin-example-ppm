@@ -4,5 +4,6 @@
     "description": "minimal package manager",
     "tags": [],
     "blacklist": ["__pycache__", "*.pyc", ".git"],
+    "src": ["ppm"],
     "config": {"file": "ppm/__init__.py", "cache": true, "api": true}
 }
